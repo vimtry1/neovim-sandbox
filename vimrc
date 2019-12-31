@@ -9,3 +9,4 @@ set textwidth=80
 set colorcolumn=+1
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 set laststatus=2
+set cmdheight=2
