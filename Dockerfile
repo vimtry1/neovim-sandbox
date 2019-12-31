@@ -20,8 +20,8 @@ ENV LANG="ja_JP.UTF-8" LANGUAGE="ja_JP:ja" LC_ALL="ja_JP.UTF-8"
 RUN pip3 install --upgrade pip neovim pynvim && \
     rm -rf /root/.cache
 
-RUN mkdir /root/.vim
-COPY vimrc /root/.vimrc
+RUN mkdir -p /root/.config/nvim
+COPY init.vim /root/.config/nvim
 WORKDIR /root
 
 ENTRYPOINT ["nvim"]
