@@ -12,4 +12,4 @@ docker build -t neovim-sandbox .
 ```
 
 ## See this follow page
-[neovimのDockerコンテナを作ったので、検証に使ってください](https://vim.blue/neovim-sandbox-container/)
+[neovimのDockerコンテナを作ったので、検証やトレーニングに使ってください](https://vim.blue/neovim-sandbox-container/)
