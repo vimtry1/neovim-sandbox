@@ -1,4 +1,5 @@
 FROM alpine:edge
+MAINTAINER vimtry
 RUN apk update && \
     apk upgrade && \
     apk add --no-cache \
