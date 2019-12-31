@@ -23,4 +23,4 @@ RUN mkdir /root/.vim
 COPY vimrc /root/.vimrc
 WORKDIR /root
 
-ENTRYPOINT ["vim"]
+ENTRYPOINT ["neovim"]
